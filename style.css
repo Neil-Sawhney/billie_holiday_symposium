@@ -221,7 +221,6 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -407,8 +406,21 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 60px 0;
 	width: 100%;
+}
+
+.about-area-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.about-area-img img {
+	height: 25vw;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .mu-title-area {
@@ -438,6 +450,11 @@ button:focus {
 	float: left;
 	margin-top: 30px;
 	width: 100%;
+}
+
+.mu-about-right ul {
+	margin-left: 25px;
+	margin-bottom: 15px;
 }
 
 
@@ -963,7 +980,6 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1042,6 +1058,18 @@ button:focus {
 
 .mu-reg-submit-btn {
 	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 12px 75px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-reg-email-btn {
+	background-color: #3b2b5c;
 	border: 2px solid #fff;
 	color: #fff;
 	padding: 12px 75px;
