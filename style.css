@@ -358,7 +358,7 @@ button:focus {
 #mu-hero .navbar-default {
 	background-color: #fff;
 	border-color: #e7e7e7;
-	padding: 5px 0;
+	padding: 45px 0;
 }
 
 .mu-navbar {
@@ -373,7 +373,7 @@ button:focus {
 #mu-hero .navbar-default .navbar-brand {
 	padding: 15px 15px;
 	font-size: 28px;
-	line-height: 20px;
+	line-height: 30px;
 }
 
 .mu-navbar .mu-menu li a {
