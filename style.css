@@ -163,7 +163,7 @@ blockquote p {
 }
 
 button {
-	padding: 5px 15px;
+	padding: 5px;
 	border: none;
 }
 
@@ -365,24 +365,40 @@ button:focus {
 	top: -150px;
 	transition: all 0.5s;
 }
+.mu-navbar .container {
+	display: flex;
+	align-items: top;
+}
 
 .mu-nav-show {
 	top: 0px;
 }
 
 #mu-hero .navbar-default .navbar-brand {
-	padding: 15px 15px;
 	font-size: 28px;
 	line-height: 30px;
 }
 
 .navbar-brand {
 	height: auto;
-	width: 80vw;
 }
 
-.navbar-header button {
+.navbar-header {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.mu-navbar .container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.navbar-toggle {
 	width: auto;
+	height: 40px;
+	margin-top: 20px;
 }
 
 .mu-navbar .mu-menu li a {
@@ -390,6 +406,7 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+	margin-top: 20px;
 }
 
 .navbar-default .navbar-nav > .active > a, 
