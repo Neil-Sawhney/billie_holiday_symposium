@@ -459,7 +459,7 @@ button:focus {
 
 .mu-title {
 	color: #1c1b1b;
-	margin-bottom: 15px;
+	margin-bottom: -30px;
 	padding: 0;
 	z-index: 10;
 	text-transform: capitalize;
@@ -769,7 +769,6 @@ button:focus {
 .mu-speakers-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
 	width: 100%;
 }
 
