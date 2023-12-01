@@ -804,6 +804,7 @@ button:focus {
 	display: inline;
 	float: left;
 	margin-left: 20px;
+	margin-bottom: 40px;
 	width: 100%;
 }
 
